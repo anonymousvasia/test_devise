@@ -54,6 +54,7 @@ class AdvertisementsController < ApplicationController
   end
 
   def show
+    zazazaza
     @ads = Advertisement.find_by(id: params[:id])
   end
 

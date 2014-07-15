@@ -17,6 +17,7 @@ class ProfilesController < ApplicationController
       flash[:error] = @profile.errors.full_messages.to_sentence
       redirect_to @profile
     end
+    azazaz
   end
 
   def destroy
